@@ -1,0 +1,228 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hallo", "hai", "halo", "hei", "hi", "hy", "pagi", "morning", "siang", "afternoon", "sore", "malam", "bro", "sis", "kawan"],
+      "responses": ["Hai! Alpa di sini. Mau tau informasi tentang apa nih?", "Halo! Saya Alpa, salam kenal ya! Mau tau tentang seputar konseling, kan?", "Helo! Ini Alpa. Mau tanya tentang konseling?"]
+    },
+    {
+      "tag": "bot-Alpa",
+      "patterns": ["Apa itu Bot-Alpa?", "Siapa Bot-Alpa?", "Bot-Alpa itu apa ?", "siapa sih Alpa", "Bot-Alpa adalah?", "aplikasi apakah Bot-Alpa?"],
+      "responses": ["Bot-Alpa adalah aplikasi chatbot informasi tentang seputar konseling", "Bot-Alpa itu adalah teman informasi kamu tentang konseling"]
+    },
+    {
+      "tag": "tentang_konseling",
+      "patterns": ["chatbot tentang apakah bot-Alpa itu", "buat apasih bot-Alpa?"],
+      "responses": [
+        "tentang seputar konseling, kamu bisa menanyakan beberapa hal tentang apa itu konseling, Bagaimana konseling dapat membantu saya mengatasi masalah pribadi saya?, Bagaimana cara mencari seorang konselor yang tepat? dan beberapa pertanyaan yang bisa kamu ajakukan"
+      ]
+    },
+    {
+      "tag": "pencipta_bot-Alpha",
+      "patterns": ["Siapa pembuatmu?", "Alpa, yang buat kamu itu siapa sih?", "Siapa penciptamu, Alpa?", "Kamu kok ada sih Alpa?", "siapa penciptamu ?", "kamu diciptakan untuk apa?"],
+      "responses": ["Alpa diciptakan oleh mahasiswa untuk memenuhi tugas besar yang diberikan oleh dosen pengampu mata kuliah NLP", "Pembuat Alpa dari kalangan mahasiswa semester 5 anjay"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Dah", "Dadah", "Bye", "Byee", "Good bye", "Selamat tinggal", "Sampai jumpa", "Bai", "See you"],
+      "responses": ["Bye!", "Dadahh!", "Good bye!", "Dahh, semoga harimu menyenangkan yaa!", "Sampai jumpa lagi!", "See u! Senang bisa membantu"]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": ["Tenkyu", "Thanks", "Thank you", "Terima kasih", "Makasih", "Terima kasih banyak"],
+      "responses": ["Dengan senang hati :)", "Sama-sama yaa"]
+    },
+    {
+      "tag": "1",
+      "patterns": ["Apa itu konseling?", "konseling adalah?"],
+      "responses": [
+        "Konseling adalah proses bantuan yang diberikan oleh seorang profesional konselor kepada individu, keluarga, atau kelompok yang mengalami masalah emosional, sosial, atau kognitif. Tujuan dari konseling adalah untuk membantu individu atau kelompok untuk mengatasi masalah yang mereka alami, meningkatkan kualitas hidup mereka, dan mencapai potensi yang maksimal. Konseling dapat dilakukan dalam berbagai konteks, termasuk konseling perorangan, konseling keluarga, konseling pasangan, dan konseling kelompok."
+      ]
+    },
+    {
+      "tag": "2",
+      "patterns": ["Apa manfaat konseling?", "konseling itu untuk apa?", "sebutkan manfaat konseling?"],
+      "responses": [
+        "Konseling dapat memberikan berbagai manfaat bagi individu yang mengalami masalah emosional, sosial, atau kognitif",
+        "Beberapa manfaat konseling antara lain: 1. Membantu individu untuk mengatasi masalah yang dihadapi: Konseling dapat membantu individu untuk mengatasi masalah yang dihadapi, seperti masalah emosional, masalah relasi, masalah karir, dan masalah lainnya, 2. Meningkatkan kualitas hidup: Konseling dapat membantu individu untuk meningkatkan kualitas hidup mereka, seperti meningkatkan kesejahteraan emosional dan meningkatkan kualitas relasi, 3. Meningkatkan komunikasi dan pemecahan masalah: Konseling dapat membantu individu untuk meningkatkan keterampilan komunikasi dan pemecahan masalah, sehingga mereka dapat mengatasi masalah dengan lebih baik, 4. Meningkatkan kesejahteraan mental: Konseling dapat membantu individu untuk meningkatkan kesejahteraan mental, seperti mengurangi gejala depresi, ansietas, dan masalah kesehatan mental lainnya, 5. Meningkatkan kesejahteraan fisik: Konseling juga dapat membantu individu untuk meningkatkan kesejahteraan fisik, seperti mengurangi gejala stres yang merugikan kesehatan, 6. Membantu individu dalam mencapai potensi yang maksimal : Konseling dapat membantu individu untuk mencapai potensi yang maksimal, seperti meningkatkan karir, meningkatkan kualitas relasi, dan meningkatkan kualitas hidup secara keseluruhan, 7. Membantu dalam proses perubahan : Konseling dapat membantu individu dalam proses perubahan, seperti meninggalkan kebiasaan buruk, mengatasi masalah kesehatan mental, atau membuat perubahan lain dalam hidup mereka."
+      ]
+    },
+    {
+      "tag": "3",
+      "patterns": ["Bagaimana cara mencari seorang konselor yang tepat?", "Bagaimana cara menentukan seorang konselor yang tepat?"],
+      "responses": [
+        "Untuk mencari seorang konselor yang tepat, Anda dapat mencari rekomendasi mencari informasi online, memastikan kualifikasi mempertimbangkan jenis konseling yang dibutuhkan, membuat janji temu, mempertimbangkan biaya. Ingatlah bahwa konseling adalah proses yang personal dan yang penting adalah Anda merasa nyaman dan dapat membuka diri dengan konselor yang Anda pilih, karena itu jangan ragu untuk mencoba beberapa konselor sebelum menemukan yang cocok untuk Anda."
+      ]
+    },
+    {
+      "tag": "4",
+      "patterns": ["Apa yang harus saya harapkan dari sesi konseling?", "Apa yang bisa saya harapkan dari sesi konseling?"],
+      "responses": [
+        "sesi konseling dapat berbeda-beda tergantung pada konselor dan masalah yang dihadapi, tetapi beberapa hal yang dapat Anda harapkan dari sesi konseling adalah dukungan emosional, pemecahan masalah, pemahaman, keterampilan, keamanan"
+      ]
+    },
+    {
+      "tag": "5",
+      "patterns": ["Apakah konseling hanya untuk masalah kesehatan mental atau juga dapat digunakan untuk masalah lain?", "apakah konseling hanya terbatas untuk kesehatan mental saja?"],
+      "responses": ["konseling dapat digunakan untuk mengatasi berbagai macam masalah, bukan hanya masalah kesehatan mental. Konseling dapat digunakan untuk mengatasi masalah emosional, sosial, dan kognitif. "]
+    },
+    {
+      "tag": "6",
+      "patterns": ["Apakah konseling itu gratis?", "Apakah konseling itu berbayar?", "konseling gratis apa tidak?", "konseling berbayar apa tidak?"],
+      "responses": [
+        "Tergantung pada negara atau wilayah tempat Anda tinggal, konseling mungkin gratis atau dikenakan biaya melalui sistem kesehatan atau asuransi kesehatan. Namun, beberapa konselor mungkin mengenakan biaya untuk jasa mereka jika Anda tidak memiliki asuransi atau jika layanan konseling tidak ditanggung oleh asuransi Anda. Sebaiknya cek dengan konselor atau klinik konseling lokal Anda untuk mengetahui apakah biaya dikenakan dan jika ada opsi pembayaran yang tersedia."
+      ]
+    },
+    {
+      "tag": "7",
+      "patterns": ["Bagaimana konseling dapat membantu saya mengatasi masalah pribadi saya?", "Bagaimana konseling dapat membantu saya mengatasi masalah saya?"],
+      "responses": [
+        "Konseling dapat membantu Anda dalam berbagai cara untuk mengatasi masalah pribadi Anda. Konselor akan bekerja dengan Anda untuk mengeksplorasi perasaan, pikiran, dan perilaku yang berkaitan dengan masalah Anda dan membantu Anda untuk mengembangkan strategi untuk mengatasinya. Beberapa cara konseling dapat membantu Anda mengatasi masalah Anda adalah memberikan dukungan emosional, membantu Anda mengidentifikasi masalah, memberikan perspektif baru, meningkatkan keterampilan koping, membantu Anda untuk mengubah perilaku."
+      ]
+    },
+    {
+      "tag": "8",
+      "patterns": ["Apakah konseling itu aman dan rahasia?", "konseling itu aman dan rahasia engga?", "konseling itu aman dan rahasia tidak?"],
+      "responses": [
+        "Konseling diharapkan menjadi aman dan rahasia. Konselor harus mengikuti etika profesional dan hukum yang mengatur konseling. Dalam hal ini, konselor diharapkan untuk menjaga kerahasiaan klien dan hanya akan membicarakan informasi yang diterima dari klien dengan pihak lain jika diperlukan oleh hukum atau jika klien memberikan izin tertulis untuk melakukannya."
+      ]
+    },
+    {
+      "tag": "9",
+      "patterns": ["Bagaimana cara mengatasi rasa canggung saat berbicara dengan seorang konselor?"],
+      "responses": [
+        "Rasa canggung saat berbicara dengan seorang konselor adalah hal yang wajar dan biasa dirasakan oleh banyak orang. Namun, ada beberapa cara yang dapat Anda lakukan untuk mengatasi rasa canggung tersebut: pertama berpikir tentang apa yang ingin Anda diskusikan: Sebelum pertemuan dengan konselor, pikirkan tentang apa yang ingin Anda diskusikan dan tulisnya jika perlu. Ini akan membantu Anda untuk fokus pada topik yang penting dan tidak merasa canggung saat mencoba untuk mengingat apa yang ingin Anda sampaikan. Kedua Memperkenalkan diri Anda: Pertemuan pertama dengan konselor adalah kesempatan bagus untuk memperkenalkan diri Anda dan menjelaskan apa yang membawa Anda ke konseling. Ketiga mengatakan jika Anda merasa canggung: Jangan ragu untuk mengatakan kepada konselor jika Anda merasa canggung saat berbicara dengan mereka. Mereka akan memahami dan dapat membantu Anda untuk merasa lebih nyaman. Keempat ingat bahwa konselor adalah profesional: Ingatlah bahwa konselor adalah profesional yang telah dilatih untuk mendengarkan dan membantu Anda. Mereka tidak akan menilai Anda atau menganggap Anda sebagai orang yang aneh. Kelima ertimbangkan untuk berbicara dengan konselor lewat telepon atau online: Jika Anda merasa canggung untuk berbicara dengan konselor secara langsung, Anda dapat mempertimbangkan untuk berbicara dengan konselor lewat telepon atau melalui konseling online. Ingatlah, rasa canggung saat berbicara dengan konselor adalah hal yang normal dan pasti akan berkurang setelah beberapa sesi. Jangan ragu untuk mencari bantuan konseling, itu merupakan langkah yang baik untuk mengatasi masalah pribadi Anda."
+      ]
+    },
+    {
+      "tag": "10",
+      "patterns": ["Apakah konseling hanya tersedia untuk orang dewasa atau juga tersedia untuk anak-anak dan remaja?"],
+      "responses": [
+        "Konseling tersedia untuk semua usia, termasuk anak-anak dan remaja. Konseling untuk anak-anak dan remaja dikenal sebagai konseling perkembangan dan dapat membantu mereka untuk mengatasi masalah yang mereka hadapi selama perkembangan mereka."
+      ]
+    },
+    {
+      "tag": "11",
+      "patterns": ["Apakah konseling dapat digunakan untuk mengatasi masalah pemahaman diri?"],
+      "responses": [
+        "Ya, konseling dapat digunakan untuk mengatasi masalah pemahaman diri. Konseling dapat membantu Anda untuk mengeksplorasi perasaan, pikiran, dan perilaku Anda dan memahami bagaimana mereka terkait dengan masalah pemahaman diri Anda."
+      ]
+    },
+    {
+      "tag": "12",
+      "patterns": ["Apakah konseling dapat digabungkan dengan obat-obatan atau terapi lain?"],
+      "responses": [
+        "Ya, konseling dapat digabungkan dengan obat-obatan atau terapi lain dalam pengobatan masalah kesehatan mental. Konseling dan obat-obatan sering digabungkan dalam pengobatan masalah kesehatan mental seperti depresi dan kecemasan. Konseling dapat membantu Anda untuk mengeksplorasi perasaan, pikiran, dan perilaku yang berkaitan dengan masalah Anda, sementara obat-obatan dapat membantu untuk mengatasi gejala fisik dari masalah Anda."
+      ]
+    },
+    {
+      "tag": "13",
+      "patterns": ["Apakah konseling efektif untuk masalah relasi atau pernikahan?"],
+      "responses": [
+        "Ya, konseling dapat efektif untuk masalah relasi atau pernikahan. Konseling relasi atau konseling pernikahan dapat membantu pasangan untuk mengatasi masalah komunikasi, masalah trust, masalah konflik, dan masalah pernikahan lainnya."
+      ]
+    },
+    {
+      "tag": "14",
+      "patterns": ["Apakah konseling dapat dilakukan secara online atau hanya tersedia secara langsung?"],
+      "responses": [
+        "Konseling dapat dilakukan baik secara online maupun secara langsung. Konseling online dapat dilakukan melalui video panggilan, obrolan teks, atau pesan suara. Beberapa keuntungan dari konseling online adalah mudah diakses, fleksibilitas waktu, dan anonimitas. Namun, ada juga beberapa hal yang perlu dipertimbangkan seperti privasi dan koneksi internet yang stabil. Konseling secara langsung dapat dilakukan di kantor konselor atau di tempat lain yang nyaman bagi klien."
+      ]
+    },
+    {
+      "tag": "15",
+      "patterns": ["Apakah konseling dapat digunakan untuk mengatasi masalah kekerasan dalam rumah tangga?"],
+      "responses": [
+        "Ya, konseling dapat digunakan untuk mengatasi masalah kekerasan dalam rumah tangga. Konseling dapat membantu korban kekerasan dalam rumah tangga untuk mengatasi rasa takut, marah, depresi, dan trauma yang mungkin diakibatkan oleh kekerasan tersebut. Konseling juga dapat digunakan untuk membantu korban untuk mengevaluasi situasi mereka dan membuat rencana untuk keamanan mereka. Konseling juga dapat digunakan untuk membantu pelaku kekerasan dalam rumah tangga untuk mengevaluasi perilaku mereka dan mempelajari cara untuk mengubahnya."
+      ]
+    },
+    {
+      "tag": "16",
+      "patterns": ["Apakah konseling dapat digunakan untuk mengatasi masalah karir atau pekerjaan?"],
+      "responses": [
+        "Ya, konseling dapat digunakan untuk mengatasi masalah karir atau pekerjaan. Konseling karir dapat membantu individu untuk mengevaluasi minat, kemampuan, dan keinginan mereka terkait dengan pekerjaan dan menemukan profesi yang sesuai dengan mereka. Konseling juga dapat membantu individu untuk mengatasi masalah karir seperti perselisihan dengan rekan kerja, konflik dengan atasan, atau kesulitan dalam mencapai tujuan karir. Konseling juga dapat membantu individu untuk mengatasi masalah karir yang disebabkan oleh perubahan lingkungan kerja atau ekonomi."
+      ]
+    },
+    {
+      "tag": "17",
+      "patterns": ["Apakah konseling dapat digunakan untuk mengatasi masalah ketergantungan?"],
+      "responses": [
+        "Ya, konseling dapat digunakan untuk mengatasi masalah ketergantungan. Konseling dapat membantu individu yang menderita ketergantungan untuk mengevaluasi kondisi mereka dan menemukan cara untuk mengatasi masalah ini. Konseling dapat membantu individu untuk mengejar kondisi fisik dan mental yang lebih baik, mengatasi masalah emosional yang mendasar yang mungkin memicu ketergantungan, dan menemukan cara untuk mengatasi tekanan dan stres tanpa harus mengandalkan substansi terlarang atau perilaku yang merugikan. Konseling juga dapat digunakan untuk membantu individu yang mengalami ketergantungan untuk mengatasi masalah relasi yang terkait dengan ketergantungan, mengatasi masalah ekonomi yang disebabkan oleh ketergantungan, dan menemukan cara untuk membangun kembali kehidupan yang sehat dan produktif."
+      ]
+    },
+    {
+      "tag": "18",
+      "patterns": ["Apakah konseling dapat digunakan untuk mengatasi masalah trauma atau pengalaman berat?"],
+      "responses": [
+        "Ya, konseling dapat digunakan untuk mengatasi masalah trauma atau pengalaman berat. Konseling dapat membantu individu yang mengalami trauma atau pengalaman berat untuk mengatasi rasa sakit, marah, takut, atau depresi yang mungkin diakibatkan oleh kondisi tersebut. Konseling juga dapat membantu individu untuk mengevaluasi situasi mereka dan membuat rencana untuk mengatasi masalah ini."
+      ]
+    },
+    {
+      "tag": "19",
+      "patterns": ["Apakah konseling dapat digunakan untuk mengatasi masalah seksual?"],
+      "responses": [
+        "Ya, konseling dapat digunakan untuk mengatasi masalah seksual seperti disfungsi seksual, masalah komunikasi dalam hubungan seksual, masalah identitas seksual, dan masalah trauma seksual. Konselor atau terapis dapat membantu individu atau pasangan untuk mengeksplorasi dan mengatasi masalah ini dengan cara yang aman dan mendukung."
+      ]
+    },
+    {
+      "tag": "20",
+      "patterns": ["Apakah konseling dapat digunakan untuk mengatasi masalah keuangan?"],
+      "responses": [
+        "Konseling dapat membantu individu atau keluarga untuk mengatasi masalah keuangan dengan cara mengevaluasi situasi keuangan saat ini, menetapkan tujuan keuangan yang realistis, dan mengembangkan rencana untuk mencapai tujuan tersebut. Konselor keuangan dapat membantu untuk mengatasi masalah seperti utang yang berlebihan, kesulitan mengelola pengeluaran, atau kesulitan mencapai tujuan keuangan jangka panjang. Namun, perlu diingat bahwa konseling keuangan tidak dapat mengatasi masalah keuangan yang disebabkan oleh faktor eksternal seperti perubahan ekonomi atau kondisi pasar."
+      ]
+    },
+    {
+      "tag": "21",
+      "patterns": ["Apakah konseling dapat digunakan untuk mengatasi masalah spiritual atau keagamaan?"],
+      "responses": [
+        "Konseling dapat digunakan untuk mengatasi masalah spiritual atau keagamaan. Konselor dapat membantu individu untuk mengeksplorasi dan mengevaluasi keyakinan spiritual atau keagamaannya, dan membantu untuk menemukan cara untuk mengatasi masalah yang mungkin timbul dari konflik atau ketidakstabilan dalam keyakinan tersebut. Beberapa konselor juga menyediakan konseling spiritual atau keagamaan yang khusus, yang difokuskan pada pembantuan individu untuk mengejar kedekatan dengan Tuhan atau mendalami keyakinan spiritual mereka. Konselor ini biasanya memiliki latar belakang pendidikan dan pelatihan yang khusus dalam bidang spiritual atau keagamaan. Namun perlu diingat, konseling spiritual atau keagamaan harus dilakukan oleh konselor yang memiliki latar belakang pendidikan dan pelatihan yang tepat dan harus dijalankan sesuai dengan etika dan hukum yang berlaku di negara masing-masing."
+      ]
+    },
+    {
+      "tag": "22",
+      "patterns": ["Apakah konseling dapat digunakan untuk mengatasi masalah kesehatan fisik?"],
+      "responses": [
+        "Konseling dapat digunakan untuk mengatasi masalah kesehatan fisik, tetapi tidak dalam cara yang sama seperti perawatan medis. Konseling dapat digunakan untuk membantu individu mengatasi masalah emosional atau perilaku yang terkait dengan kondisi medis mereka, seperti depresi atau stres yang disebabkan oleh masalah kesehatan fisik. Konselor dapat membantu individu untuk mengatasi masalah ini dengan mengevaluasi situasi saat ini, menetapkan tujuan, dan mengembangkan rencana untuk mencapai tujuan tersebut."
+      ]
+    },
+    {
+      "tag": "23",
+      "patterns": ["Apakah konseling dapat digunakan untuk mengatasi masalah disleksia?"],
+      "responses": [
+        "Konseling dapat digunakan untuk mengatasi masalah yang terkait dengan disleksia. Konselor dapat membantu individu yang menderita disleksia untuk mengatasi masalah emosional atau perilaku yang terkait dengan kondisi tersebut, seperti depresi, kecemasan, atau kesulitan dalam interaksi sosial. Konselor juga dapat membantu individu untuk mengatasi masalah dalam belajar, seperti kesulitan dalam membaca dan menulis, dan membantu untuk mengembangkan strategi untuk mengatasi masalah tersebut. Konseling juga dapat digunakan untuk membantu keluarga dan orang tua dari anak yang menderita disleksia untuk mengatasi masalah yang terkait dengan kondisi tersebut, seperti kesulitan dalam mendukung anak mereka dan mengatasi masalah emosional yang mungkin timbul dari kondisi tersebut. Perlu diingat, konseling hanyalah salah satu dari banyak jenis intervensi yang dapat digunakan untuk mengatasi masalah disleksia. Beberapa jenis intervensi lain yang dapat digunakan termasuk terapi bahasa, terapi okupasi dan intervensi pendidikan yang difokuskan pada perbaikan keterampilan membaca dan menulis."
+      ]
+    },
+    {
+      "tag": "24",
+      "patterns": ["Bagaimana konseling dapat membantu saya mengatasi masalah keluarga?"],
+      "responses": [
+        "Konseling dapat membantu Anda untuk mengatasi masalah keluarga dengan cara: Mengevaluasi situasi saat ini dan mengidentifikasi masalah yang ada dalam keluarga Anda. Membantu Anda dan anggota keluarga lainnya untuk mengekspresikan perasaan dan pikiran Anda secara efektif. Membantu Anda dan anggota keluarga lainnya untuk mengembangkan komunikasi yang lebih baik dan meningkatkan keterampilan dalam mengatasi masalah. Membantu Anda dan anggota keluarga lainnya untuk menetapkan tujuan dan mengembangkan rencana untuk mencapai tujuan tersebut. Membantu Anda dan anggota keluarga lainnya untuk mengatasi masalah emosional yang mungkin timbul dari masalah keluarga."
+      ]
+    },
+    {
+      "tag": "25",
+      "patterns": ["Apakah konseling dapat digunakan untuk mengatasi masalah anak yang bermasalah?"],
+      "responses": []
+    },
+    {
+      "tag": "26",
+      "patterns": ["Apakah konseling dapat digunakan untuk mengatasi masalah komunikasi?"],
+      "responses": []
+    },
+    {
+      "tag": "27",
+      "patterns": ["Apakah konseling dapat digunakan untuk mengatasi masalah pengambilan keputusan?"],
+      "responses": []
+    },
+    {
+      "tag": "28",
+      "patterns": ["Bagaimana konseling dapat membantu saya mengatasi masalah dalam hubungan?"],
+      "responses": []
+    },
+    {
+      "tag": "29",
+      "patterns": ["Apakah konseling dapat digunakan untuk mengatasi masalah kepercayaan diri?"],
+      "responses": []
+    }
+  ]
+}
